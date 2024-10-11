@@ -2,6 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+/* app/globals.css */
+
+nav {
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  color: gray; /* Optional hover effect */
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
