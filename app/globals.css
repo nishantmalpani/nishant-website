@@ -34,6 +34,32 @@ nav a:hover {
   color: gray; /* Optional hover effect */
 }
 
+.hi {
+  text-align: left;
+}
+
+#eecs {
+  font-size: 4rem;
+  padding-top: 8rem
+}
+
+.coverH1 {
+  font-size: 8rem
+
+}
+
+.descriptive-text {
+  padding-top: 4rem;
+  font-size: 1.8rem;
+}
+
+.cover-pic {
+  padding-top: 4rem;
+}
+
+#soccer-pic {
+  padding-top: 4rem;
+}
 
 :root {
   --background: #ffffff;
