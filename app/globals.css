@@ -10,6 +10,7 @@ nav {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: flex-end;
+  background-color: beige;
 }
 
 nav ul {
@@ -48,9 +49,47 @@ nav a:hover {
 
 }
 
+.final {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+#rca-logo {
+  gap: 5%
+}
+
 .descriptive-text {
   padding-top: 4rem;
   font-size: 1.8rem;
+}
+
+.desc {
+  text-align: left;
+  max-width: 30rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+}
+
+.bottom_proj {
+  padding-top: 4rem;
+}
+
+.bullet1 {
+  padding-bottom: 0.4rem;
+}
+
+.logo {
+  justify-self: right;
+}
+
+#projects {
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .cover-pic {
