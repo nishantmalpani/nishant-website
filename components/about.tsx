@@ -9,7 +9,8 @@ const About = () => {
         <section id="section2">
           <div className="container text-center">
             <div className="row align-items-center">
-              <div className="col-sm-3">
+
+              <div className="col-sm-3 col1">
                 <Image
                   src = {soccer}
                   alt="Nishant's playing soccer"
@@ -19,12 +20,13 @@ const About = () => {
                 />
                 <Image
                   src = {graduation}
-                  alt="Nishant's playing soccer"
+                  alt="Nishant playing soccer"
                   width={200}
                   height={400} // figure out how to make image taller
                   id='soccer-pic'
                 />
               </div>
+
               <div className="col-sm-6">
                 <h2 className='h2'>about me!</h2>
                 <p className='descriptive-text'>I am an undergraduate student studying EECS at UC Berkeley. My interests lie 
@@ -33,6 +35,7 @@ const About = () => {
                   solving complex problems. In my free time, I enjoy playing soccer and ping pong, skiing, and reading!
                 </p>
               </div>
+
               <div className='col-sm-3'>
                 <Image
                     src = {skiing}

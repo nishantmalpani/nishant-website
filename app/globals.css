@@ -60,8 +60,8 @@ footer {
   justify-content: center;
 }
 
-.hi {
-  text-align: left;
+.col1 {
+  padding-left: 5rem;
 }
 
 #prof-pic {
@@ -78,7 +78,11 @@ footer {
 
 .coverH1 {
   font-size: 8rem
+}
 
+.contact-logo:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .final {
@@ -110,6 +114,7 @@ footer {
 
 #home-div {
   margin-left: 3rem;
+  text-align: left;
 }
 
 .logos {

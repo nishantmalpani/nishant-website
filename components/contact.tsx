@@ -26,7 +26,7 @@ const Contact = () => {
                 alt="Github logo"
                 width={80}
                 height={80}
-                className="cover-pic"
+                className="cover-pic contact-logo"
               />
             </Link>
 
@@ -36,7 +36,7 @@ const Contact = () => {
                 alt="Linkedin logo"
                 width={80}
                 height={80}
-                className="cover-pic"
+                className="cover-pic contact-logo"
               />
             </Link>
 
@@ -46,7 +46,7 @@ const Contact = () => {
                 alt="Gmail logo"
                 width={80}
                 height={80}
-                className="cover-pic"
+                className="cover-pic contact-logo"
               />
             </Link>
           </div>

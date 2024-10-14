@@ -10,23 +10,26 @@ const Experiences = () => {
           <h1 className="h1" id="projects">Projects & Experiences!</h1>
           <div className="container text-center">
               <div className="row">
-                  <div className="col">
-                    <div className="wrapper">
-                      <h2 className="h2 desc"><strong>Seacology</strong></h2>
-                      <Image
-                        src = {seacology}
-                        alt="Seacology Logo"
-                        width={100}
-                        height={100}
-                        className="logo"
-                      />
+
+                  <div className="col col1">
+                    <div className="experience">
+                      <div className="wrapper">
+                        <h2 className="h2 desc"><strong>Seacology</strong></h2>
+                        <Image
+                          src = {seacology}
+                          alt="Seacology Logo"
+                          width={100}
+                          height={100}
+                          className="logo"
+                        />
+                      </div>
+                      <h4 className="h4 desc">Full Stack Developer</h4>
+                      <h6 className="h6 desc">Sep 2024-</h6>
+                      <ul className="list-unstyled">
+                        <li className="desc bullet1">-   Developing a full stack application for Seacology (a non-profit organization to protect island ecosystems) partnering field representatives to reference project proposal information.</li>
+                        <li className="desc">-   Categorizing proposal information and creating a forum for questions.</li>
+                      </ul>
                     </div>
-                    <h4 className="h4 desc">Full Stack Developer</h4>
-                    <h6 className="h6 desc">Sep 2024-</h6>
-                    <ul className="list-unstyled">
-                      <li className="desc bullet1">-   Developing a full stack application for Seacology (a non-profit organization to protect island ecosystems) partnering field representatives to reference project proposal information.</li>
-                      <li className="desc">-   Categorizing proposal information and creating a forum for questions.</li>
-                    </ul>
 
                     <div className="wrapper bottom_proj">
                       <h2 className="h2 desc"><strong>Ludis Coaching</strong></h2>
