@@ -3,9 +3,12 @@ import First from "@/components/first"
 import About from "@/components/about"
 import Experiences  from "@/components/experiences";
 import Contact from "@/components/contact"
+import getProjects from "./lib/getProjects"
 
 
 export default function Home() {
+  getProjects();
+  
   return (
     <>
       <Navbar />
