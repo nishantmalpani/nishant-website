@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import face from "../app/images/cover-pic.svg"
+import face from "./images/cover-pic.svg"
 
 const First = () => {
     return (
