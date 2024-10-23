@@ -10,7 +10,7 @@ const First = () => {
               <div className="col">
                 <div id="home-div">
                   <h1 className="h1 coverH1">Hi!</h1>
-                  <h1 className="h1 coverH1">I'm Nishant.</h1>
+                  <h1 className="h1 coverH1">I am Nishant.</h1>
                   <h2 className="h2" id="eecs">EECS @ UC Berkeley</h2>
                 </div>
               </div>

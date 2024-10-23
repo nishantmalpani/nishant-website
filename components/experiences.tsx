@@ -1,8 +1,11 @@
+/*
+
 import Image from "next/image";
 import seacology from "../app/images/seacology.png"
 import ludis from "../app/images/ludisLogo.png"
 import simplilearn from "../app/images/simplilearn.jpg"
 import rca from "../app/images/rca.jpg"
+
 
 export function Experiences () {
 
@@ -68,8 +71,8 @@ export function Experiences () {
                     <h4 className="h4 desc">R&D Intern</h4>
                     <h6 className="h6 desc">June - August 2023</h6>
                     <ul className="list-unstyled">
-                      <li className="desc bullet1">-   Created unit tests and security tests for new features built by Simplilearn's R&D team.</li>
-                      <li className="desc">-   Learned about the thoroughness behind product testing and security
+                      <li className="desc bullet1">Created unit tests and security tests for new features built by Simplilearn's R&D team.</li>
+                      <li className="desc">Learned about the thoroughness behind product testing and security
                       .</li>
                     </ul>
 
@@ -96,4 +99,4 @@ export function Experiences () {
       )
 };
 
-export default Experiences;
+export default Experiences; */
