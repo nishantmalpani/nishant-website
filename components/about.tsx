@@ -12,14 +12,14 @@ const About = () => {
 
               <div className="col-sm-3 col1">
                 <Image
-                  src = "../app/images/soccer 1.png"
+                  src = "/../app/images/soccer 1.png"
                   alt="Nishant's playing soccer"
                   width={400}
                   height={200}
                   id='soccer-pic'
                 />
                 <Image
-                  src = "../app/images/graduation 1.png"
+                  src = "/../app/images/graduation 1.png"
                   alt="Nishant playing soccer"
                   width={200}
                   height={400} // figure out how to make image taller
@@ -38,14 +38,14 @@ const About = () => {
 
               <div className='col-sm-3'>
                 <Image
-                    src = "../app/images/silly_pic.jpg"
+                    src = "/../app/images/silly_pic.jpg"
                     alt="Nishant after skiing"
                     width={200}
                     height={200}
                     id='soccer-pic'
                   />
                   <Image
-                    src = "../app/images/berkeley.png"
+                    src = "/../app/images/berkeley.png"
                     alt="UC Berkeley"
                     width={300}
                     height={300} // figure out how to make image taller
