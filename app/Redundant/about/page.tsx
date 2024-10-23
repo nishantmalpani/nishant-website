@@ -1,4 +1,4 @@
-import Navbar from '../../components/navbar';
+import Navbar from '../../../components/navbar';
 import Image from "next/image";
 import soccer from "../images/soccer 1.png"
 import graduation from "../images/graduation 1.png"

@@ -28,7 +28,7 @@ const About = () => {
               </div>
 
               <div className="col-sm-6">
-                <h2 className='h2'>about me!</h2>
+                <h2 className='h2'>About Me!</h2>
                 <p className='descriptive-text'>I am an undergraduate student studying EECS at UC Berkeley. My interests lie 
                   in the fields of machine learning and virtual reality, specificially using these technologies
                   to improve sports accessibility. I have experience in competitive programming and math and love

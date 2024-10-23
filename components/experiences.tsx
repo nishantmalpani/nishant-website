@@ -4,14 +4,15 @@ import ludis from "../app/images/ludisLogo.png"
 import simplilearn from "../app/images/simplilearn.jpg"
 import rca from "../app/images/rca.jpg"
 
-const Experiences = () => {
+export function Experiences () {
+
     return (
         <section id="section3">
           <h1 className="h1" id="projects">Projects & Experiences!</h1>
           <div className="container text-center">
               <div className="row">
 
-                  <div className="col col1">
+                <div className="col col1">
                     <div className="experience">
                       <div className="wrapper">
                         <h2 className="h2 desc"><strong>Seacology</strong></h2>
@@ -92,7 +93,7 @@ const Experiences = () => {
                 </div>
               </div> 
         </section>
-    )
+      )
 };
 
 export default Experiences;
