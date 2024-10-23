@@ -11,7 +11,7 @@ const Contact = () => {
           <h1 className="h1 final">I am always looking for opportunities to learn and grow as an individual.
                 I love meeting new people!</h1>
           <Image
-            src = {prof}
+            src = "../app/images/prof_pic.jpg"
             alt="Github logo"
             width={400}
             height={400}
@@ -22,7 +22,7 @@ const Contact = () => {
           <div className="logos">
             <Link href="https://github.com/nishantmalpani">
               <Image
-                src = {github}
+                src = "../app/images/github.png"
                 alt="Github logo"
                 width={80}
                 height={80}
@@ -32,7 +32,7 @@ const Contact = () => {
 
             <Link href="https://www.linkedin.com/in/nishant-malpani-b12843241/">
               <Image
-                src = {linkedin}
+                src = "../app/images/linkedin.png"
                 alt="Linkedin logo"
                 width={80}
                 height={80}
@@ -42,7 +42,7 @@ const Contact = () => {
 
             <Link href="mailto:nishant.malpani@berkeley.edu">
               <Image
-                src = {mail}
+                src = "../app/images/mail.png"
                 alt="Gmail logo"
                 width={80}
                 height={80}
