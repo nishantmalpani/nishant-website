@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from 'next/link';
-import github from "../app/images/github.png"
-import linkedin from "../app/images/linkedin.png"
-import mail from "../app/images/mail.png"
-import prof from "../app/images/prof_pic.jpg"
+import github from "./images/github.png"
+import linkedin from "./images/linkedin.png"
+import mail from "./images/mail.png"
+import prof from "./images/prof_pic.jpg"
 
 const Contact = () => {
     return (
@@ -11,7 +11,7 @@ const Contact = () => {
           <h1 className="h1 final">I am always looking for opportunities to learn and grow as an individual.
                 I love meeting new people!</h1>
           <Image
-            src = "/../app/images/prof_pic.jpg"
+            src = {prof}
             alt="Github logo"
             width={400}
             height={400}
@@ -22,7 +22,7 @@ const Contact = () => {
           <div className="logos">
             <Link href="https://github.com/nishantmalpani">
               <Image
-                src = "/../app/images/github.png"
+                src = {github}
                 alt="Github logo"
                 width={80}
                 height={80}
@@ -32,7 +32,7 @@ const Contact = () => {
 
             <Link href="https://www.linkedin.com/in/nishant-malpani-b12843241/">
               <Image
-                src = "/../app/images/linkedin.png"
+                src = {linkedin}
                 alt="Linkedin logo"
                 width={80}
                 height={80}
@@ -42,7 +42,7 @@ const Contact = () => {
 
             <Link href="mailto:nishant.malpani@berkeley.edu">
               <Image
-                src = "/../app/images/mail.png"
+                src = {mail}
                 alt="Gmail logo"
                 width={80}
                 height={80}
